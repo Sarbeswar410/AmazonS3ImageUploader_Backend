@@ -23,6 +23,10 @@ public class S3Controller {
 	private imageUploader uploader;
 
 //	For upload image in s3
+//	For upload image in s3
+//	For upload image in s3
+//	For upload image in s3
+
 	@PostMapping("/uploadImage")
 	public ResponseEntity<?> uploadImage(@RequestParam MultipartFile file) {
 		return ResponseEntity.ok(uploader.uploadImages(file));
